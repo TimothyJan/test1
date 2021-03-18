@@ -51,6 +51,12 @@ a:hover {
   color: white;
 }
 
+li a{
+  display: block;
+  padding: 8px;
+  color: black;
+}
+
 /*Class Selectors*/
 .topContainer {
   background-color: #EAF6F6;
@@ -70,12 +76,6 @@ a:hover {
   padding:0;
   overflow:hidden;
   background-color: #dddddd;
-}
-
-li a{
-  display: block;
-  padding: 8px;
-  color: black;
 }
 
 .topCloud {
@@ -133,6 +133,19 @@ li a{
   margin-left: 2rem;
   margin-right: 2rem;
 }
+
+/*
+.projectLinks{
+  font-family: 'Montserrat';
+  color: orange;
+  background-color: yellow;
+}
+
+.projectLinks:hover{
+  font-family: 'Montserrat';
+  color: black;
+}
+*/
 
 .bold{
   font-weight: bold;

@@ -15,6 +15,7 @@
     <ul class="navBar">
       <li style="float:right"><a href=#contactMe>Contact</a></li>
       <li style="float:right"><a href=#education>Education</a></li>
+      <li style="float:right"><a href=#projects>Projects</a></li>
       <li style="float:right"><a href=#career>Career</a></li>
       <li style="float:right"><a href=#skills>Skills</a></li>
       <li style="float:right"><a href=#profilePhoto>About</a></li>
@@ -121,6 +122,21 @@
         <li>Facilitated group discussions, assisted struggling coworkers, and ensured all tasks remained on schedule.</li>
       </ul>
       </p>
+    </div>
+
+    <hr id="projects">
+    <div class="career">
+      <h2>Projects</h2>
+        <p>
+          <span class="bold">C-based Language Compiler</span>
+          <span style="projectLinks"><a href="https://github.com/TimothyJan/FakeLanguageCompiler">Github</a></span>
+          <span style="float:right">C++</span>
+          <ul>
+            <li>Created components of a compiler for a made-up C-based language. </li>
+            <li>Lexical Analyzer parses through the source code and outputs each lexeme and its appropriate token. It strips extraneous characters from source code, breaks up the source code into meaningful units called tokens and implements the Deterministic Finite State Machine to classify each of the lexemes with appropriate tokens. </li>
+            <li>Syntax Analyzer parses through source code to determine if it is syntactically correct. I rewrote the grammar to remove any left recursion and ambiguity. I created a predictive table with the First and Follow sets of the rewritten grammar. The Top-Down Syntax Analyzer parses through the source code, uses a stack and prints out the tokens/lexemes and all the production rules used for analyzing the tokens. </li>
+          </ul>
+        </p>
     </div>
 
     <hr id="education">
