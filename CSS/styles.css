@@ -43,18 +43,11 @@ p {
 a {
   font-family: 'Montserrat';
   color: black;
-  margin-right: 1rem;
   text-decoration: none;
 }
 
 a:hover {
   color: blue;
-}
-
-li a{
-  display: block;
-  padding: 8px;
-  color: black;
 }
 
 /*Class Selectors*/
@@ -76,6 +69,13 @@ li a{
   padding:0;
   overflow:hidden;
   background-color: #dddddd;
+}
+
+.navBar li a{
+  display: block;
+  padding: 8px;
+  color: black;
+  margin-right: 1rem;
 }
 
 .topCloud {
